@@ -816,7 +816,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 926849950}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.09, y: -1.28, z: 0.00023344904}
+  m_LocalPosition: {x: -2.93, y: 4.07, z: 0.00023344904}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1400,10 +1400,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41186ad04b0d40799ad66d8cc986a54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  posiListe:
+  - {x: 1, y: -6}
+  - {x: 6, y: -5}
+  - {x: 7, y: -2}
+  - {x: 4.5, y: 4}
+  - {x: -3, y: 3}
+  - {x: 8, y: 8}
+  - {x: 8, y: -8}
+  - {x: -8, y: -8}
   checkCoin: {fileID: 1906454293}
-  newPos1: {x: 1, y: -6}
-  newPos2: {x: 6, y: -5}
-  newPos3: {x: 7, y: -2}
 --- !u!1 &1906454287
 GameObject:
   m_ObjectHideFlags: 0
@@ -1807,11 +1813,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2570983390722556234, guid: 82f71e2d322aa4308b8173801eebde59, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.46
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 2570983390722556234, guid: 82f71e2d322aa4308b8173801eebde59, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.14
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2570983390722556234, guid: 82f71e2d322aa4308b8173801eebde59, type: 3}
       propertyPath: m_LocalPosition.z

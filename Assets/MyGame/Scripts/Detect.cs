@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Detect : MonoBehaviour
 {
+    public Vector2[] posiListe = 
+    {
+        new Vector2(1, -6),
+        new Vector2(6, -5),
+        new Vector2(7, -2)
+    };
     public Collect checkCoin;
-    [SerializeField]
-    private Vector2 newPos1;
-    [SerializeField]
-    private Vector2 newPos2;
-    [SerializeField]
-    private Vector2 newPos3;
+  
 
 
 
@@ -18,9 +19,11 @@ public class Detect : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            if (checkCoin.hasCoin == true)
+            if (checkCoin.hasCoin == true)  
             {
-                checkCoin.coin.transform.position = newPos1;
+                int index = Random.Range(0, posiListe.Length);
+                Debug.Log(index);
+                checkCoin.coin.transform.position = posiListe[index];
                 checkCoin.coin.SetActive(true);
             }
         }
