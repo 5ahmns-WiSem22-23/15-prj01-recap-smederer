@@ -8,4 +8,6 @@ MacOS 12.6, Unity 2020.3.18f1, Visual Studio 2019 Version 8.10.25(build2)
 Eine Wiederholung der Anwendung von Klassen, Methoden, Variablen, If-Statements,
 Collision und Trigger.
 
+Zusatz: speed-zone, extra indikatoren, timer, counter, 
+
 smederer
