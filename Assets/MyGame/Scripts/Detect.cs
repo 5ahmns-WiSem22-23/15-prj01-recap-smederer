@@ -18,7 +18,7 @@ public class Detect : MonoBehaviour
     [SerializeField]
     private GameObject[] coinsCollected;
      
-    private int scroeInt;
+    public int scroeInt;
 
 
     private void Start()
