@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
             timerText.text = zeit.ToString();
             timer -= Time.deltaTime;
         }
-        Debug.Log(timer);
+       
     }
     public void restart()
     {
